@@ -1,0 +1,53 @@
+.form-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+form {
+    width: 90%;
+}
+
+form input {
+    width: 100%;
+    padding: 16px 16px 16px 0;
+    font-size: 24px;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: 1.4em;
+    border: 1px solid rgb(179, 178, 178);
+    border-left: none;
+}
+
+form input::placeholder {
+    color: rgba(128, 128, 128, 0.473);
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: 1.4em;
+    text-transform: initial;
+    font-style: italic;
+}
+
+.not-active-btn {
+    color: rgba(128, 128, 128, 0.479);
+    width: 10%;
+    padding: 7px 5px 3px 5px;
+    background-color: white;
+    border: 1px solid rgb(179, 178, 178);
+    border-right: none;
+}
+
+label span {
+    display: block;
+    font-size: 40px;
+    font-weight: 600;
+    transform: rotate(90deg) scaleX(0.5);
+}
+
+.active-btn {
+    color: black;
+    width: 10%;
+    padding: 7px 5px 3px 5px;
+    background-color: white;
+    border: 1px solid rgb(179, 178, 178);
+    border-right: none;
+}
