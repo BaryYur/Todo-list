@@ -15,7 +15,6 @@
 .item-container input[type="checkbox"] {
     width: 25px;
     height: 25px;
-    cursor: pointer;
 }
 
 .item-container .active-button {
